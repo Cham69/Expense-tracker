@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #2B2B2B;
+}
+
+.header{
+    font-size: 30px;
+    text-align: center;  
+    color: #2B2B2B;
+    margin-bottom: 20px;
+}
+.root{
+    width: 600px;
+    border: 1px solid #B6B6B6;
+    margin:20px auto;
+   
+    border-radius: 5px;
+}
+h4{
+    margin: 0px 10px;
+
+}
+#balance{
+    margin-left: 10px;
+}
+.incExpeBox{
+    display: flex;
+    margin: 10px;
+    border-top: solid 1px #B6B6B6;
+    justify-content: center;
+}
+.incExpeBox div{
+    margin: auto;
+    padding: 10px;
+}
+.incExpe1{
+    color: #24A92E;
+}
+
+.incExpe2{
+    color:  #FF1818;
+}
+.history{
+    text-align: center;
+    border-bottom: 1px solid #B6B6B6;
+    margin-bottom: 10px;
+}
+.transaction{
+    list-style: none;
+}
+.listItem{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 10px 5px;
+    background-color: #99FF89;
+}
+.form{
+    width: 80%;
+    margin: auto;
+    
+}
+.formField{
+    width:100% ;
+    padding: 10px;
+    border: #B6B6B6 1px solid;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #1C1C1C;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0px 40px;
+}
+input:focus{
+    outline: none;
+}
