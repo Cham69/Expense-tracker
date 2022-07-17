@@ -11,7 +11,7 @@ function App() {
     {
       id: 1,
       transaction: 'Groceries',
-      amount: 25
+      amount: 250
     },
     {
       id:2,
