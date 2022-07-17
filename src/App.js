@@ -16,7 +16,7 @@ function App() {
     {
       id:2,
       transaction: 'Transport',
-      amount: 100
+      amount: 200
     }
   ])
 
