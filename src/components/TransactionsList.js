@@ -1,15 +1,14 @@
 import React from 'react'
+import Transaction from './Transaction'
 
-const TransactionsList = () => {
+const TransactionsList = ({list}) => {
   return (
     <div className='transactionList'>
         <h4 className='history'>HISTORY</h4>
         <ul className='transaction'>
-            <li className='listItem'>
-                <span><b>Groceries</b></span><span><b>$250.00</b></span>
-            </li>
-            <li className='listItem' style={{backgroundColor:'#FFD6D6'}}>
-                <span>Gas</span><span>$50.00</span></li>
+            {list.map(listItem => (
+                <Transaction listItem={listItem} key={listItem.id}/>
+            ))}            
         </ul>
     </div>
   )

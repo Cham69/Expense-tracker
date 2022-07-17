@@ -1,8 +1,14 @@
 import { useState } from "react"
 
-const InputTransaction = () => {
+const InputTransaction = ({addNew}) => {
     const [item, setItem] = useState('')
     const [amount, setAmount] = useState('')
+
+    const submitTransaction = ()=>{
+        addNew(item, amount)
+        setItem('')
+        setAmount('')
+    }
 
     return (
     <div className='form'>
@@ -13,7 +19,9 @@ const InputTransaction = () => {
         <div>
             <input type="number" value={amount} name="amount" onChange={(e)=>setAmount(e.target.value)} className="formField" placeholder='Amount' step='.01' />
         </div>
-        <button className="btn">ADD TRANSACTION</button>
+        <button className="btn" onClick={submitTransaction}>
+            ADD TRANSACTION
+        </button>
     </div>
   )
 }

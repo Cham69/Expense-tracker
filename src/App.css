@@ -58,7 +58,7 @@ h4{
     justify-content: space-between;
     border-radius: 3px;
     padding: 10px 5px;
-    background-color: #99FF89;
+    
 }
 .form{
     width: 80%;
@@ -83,4 +83,7 @@ h4{
 }
 input:focus{
     outline: none;
+}
+.btn:hover{
+    cursor: pointer;
 }

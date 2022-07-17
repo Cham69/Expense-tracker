@@ -1,6 +1,7 @@
 import React from 'react'
 
-const IncExpe = () => {
+const IncExpe = ({list}) => {
+  
   return (
     <div className='incExpeBox'>
         <div>
